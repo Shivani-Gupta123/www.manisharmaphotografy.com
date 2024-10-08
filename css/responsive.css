@@ -1,0 +1,785 @@
+@charset "utf-8";
+.real {
+	float:left;
+	padding-bottom:2px;
+	image-rendering: -moz-crisp-edges;         
+	image-rendering:   -o-crisp-edges;         
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;  
+}
+.real.left {
+	width:491px;
+	margin-right:2px;
+}
+.real.right {
+	width:491px;
+}
+.real.middle {
+	width:50%;
+	float:none;
+}
+@media only screen and (max-width:984px) {
+	.contact-area,
+	.contact-info,
+	.highlight-container,
+	.highlight-details,
+	.highlight-image,
+	.portfolio-content,
+	.portfolio-details,
+	.send-message {
+		display: block
+	}
+	.container {
+		top:50px;
+	}
+	.wrapper.header {
+		width: 100%
+	}
+	.wrapper {
+		width: 728px
+	}
+	.wrapper.boxstyle {
+		margin-top: 50px
+	}
+	.page-header h1 {
+		float: none;
+		margin-right: 0;
+		margin-bottom: 15px
+	}
+	.feature-image img {
+		width: 100%;
+		height: auto
+	}
+	.servicebox {
+		width: 514px;
+		left: 50%;
+		margin-left: -257px
+	}
+	.servicebox ul li {
+		margin-top: 80px;
+		margin-left: 20px
+	}
+	.servicebox ul li:nth-child(-n+2) {
+		margin-top: 0
+	}
+	.service-textarea {
+		padding-top: 20px
+	}
+	.category-filter h2 {
+		float: none;
+		margin: 0
+	}
+	.highlight-container img {
+		width: 100%;
+		height: auto
+	}
+	.highlight-image {
+		width: 100%
+	}
+	.highlight-details {
+		width: 100%;
+		text-align: left
+	}
+	.highlight-details p {
+		margin-bottom: 45px
+	}
+	.highlight-moreinfo {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		margin-top: 0;
+		margin-right: 35px;
+		margin-bottom: 35px;
+		padding-left: 35px;
+		background: url(../images/plus-link-highlight.png) left no-repeat
+	}
+	.our-team ul {
+		margin-left: -20px
+	}
+	.our-team ul li {
+		width: 206px;
+		margin-left: 20px
+	}
+	.our-team ul li img {
+		width: 100%;
+		height: auto
+	}
+	.team-more {
+		margin-top: 7px
+	}
+	.team-mask:hover>.team-details {
+		margin-top: 40%
+	}
+	.header-image .wrapper {
+		margin-top: 40px
+	}
+	.portfolio-content figure {
+		width: 100%;
+		display: block
+	}
+	.portfolio-details {
+		width: 100%;
+		padding-left: 0
+	}
+	.portfolio-details h1 {
+		margin-top: 30px
+	}
+	.related-work ul {
+		margin-top: 17px;
+		margin-left: -14px
+	}
+	.related-work ul li {
+		width: 154px;
+		margin-top: 14px;
+		margin-left: 14px
+	}
+	.related-work ul li img {
+		width: 100%;
+		height: auto
+	}
+	.related-work ul li .thumbnail-title {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 16px;
+		padding: 45px 20px 0;
+		margin-top: 25%
+	}
+	.related-work ul li:hover .thumbnail-title {
+		margin-top: 20%
+	}
+	.client-logo ul li {
+		width: 25%
+	}
+	.client-logo ul li:nth-child(-n+3) {
+		box-shadow: 21px 0 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(4) {
+		box-shadow: none
+	}
+	.client-logo ul li:nth-child(10),
+	.client-logo ul li:nth-child(15),
+	.client-logo ul li:nth-child(5) {
+		box-shadow: 0 -21px 0 -20px #bbb, 21px 0 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(8) {
+		box-shadow: 0 -21px 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(12) {
+		box-shadow: 0 -21px 0 -20px #bbb, 0 21px 0 -20px #bbb, 0 0 0 -20px #bbb
+	}
+	.client-logo ul li img {
+		width: 100%;
+		height: auto
+	}
+	.blog-details,
+	.blog-lists {
+		width: 100%;
+	}
+	.blog-post img {
+		width: 100%;
+		height: auto
+	}
+	.related-post ul {
+		margin-left: -11px
+	}
+	.related-post ul li {
+		width: 100px;
+		margin-left: 11px
+	}
+	.related-post ul li img {
+		width: 100%;
+		height: auto
+	}
+	.send-message {
+		width: 100%;
+		padding-right: 0
+	}
+	.contact-info {
+		width: 100%;
+		border-top: #fff solid 1px;
+		border-left: none;
+		padding-top: 35px;
+		padding-left: 0;
+		margin-top: 35px
+	}
+	.page-sidebar {
+		width: 225px;
+		padding-left: 25px
+	}
+	.sidebar-gallery ul {
+		margin-left: -4px
+	}
+	.sidebar-gallery ul li {
+		width: 64px;
+		margin-top: 4px;
+		margin-left: 4px
+	}
+	.sidebar-gallery ul li img {
+		width: 100%;
+		height: auto
+	}
+	.footer-aboutus {
+		float: none;
+		width: 100%;
+		margin-right: 0
+	}
+	.footer-gallery {
+		width: 346px;
+		margin-top: 30px;
+		margin-right: 36px
+	}
+	.footer-gallery ul li {
+		width: 100%
+	}
+	.footer-gallery ul li img {
+		width: 100%;
+		height: auto
+	}
+	.footer-contact {
+		width: 346px;
+		margin-top: 30px
+	}
+	.real {
+	float:left;
+	padding-bottom:2px;
+	width:100%;
+}
+.real.left,.real.right,.real.middle{width:100%; margin:0px;}
+.box-container {padding-top:10px;}
+.box-container iframe {height:410px !important; width:728px !important;}
+body.homepage .service-textarea ul.our-services {padding-bottom:0px;}
+body.homepage .service-textarea ul.our-services li{
+		width:100%;
+		margin-right:0px;
+		padding-bottom:20px;
+	}
+body.homepage .service-textarea ul.our-services li.last {
+		padding-bottom:0px;
+	}
+.service-textarea img.imageleft,.service-textarea img.imageright {width:100%; padding:0 0 20px 0;}
+body.homepage .service-textarea ul.our-services li {margin-bottom:20px; min-height:auto;}
+body.homepage .service-textarea ul.our-services li.last{margin-bottom:0px;}
+body.homepage .service-textarea ul.our-services li .content{width:90%; padding:5%;}
+.homepage .comment-fieldbox input[type="text"]
+{
+	margin-right:0px;
+}
+}
+
+@media only screen and (max-width:767px) {
+	.wrapper {
+		width: 680px
+	}
+	.quote-pagesidebar {
+		width: 70%
+	}
+	.service-textarea {
+		padding-top: 78%
+	}
+	.our-team ul {
+		margin-left: -17px
+	}
+	.our-team ul li {
+		width: 192px;
+		margin-left: 17px
+	}
+	.related-work ul {
+		margin-top: 20px;
+		margin-left: -10px
+	}
+	.related-work ul li {
+		width: 145px;
+		margin-top: 10px;
+		margin-left: 10px
+	}
+	.blog-details,
+	.blog-lists {
+		width: 390px
+	}
+	.related-post ul {
+		margin-left: -10px
+	}
+	.related-post ul li {
+		width: 90px;
+		margin-left: 10px
+	}
+	.page-sidebar {
+		width: 220px
+	}
+	.sidebar-gallery ul {
+		margin-left: -3px
+	}
+	.sidebar-gallery ul li {
+		width: 63px;
+		margin-top: 3px;
+		margin-left: 3px
+	}
+	.footer-gallery {
+		width: 325px;
+		margin-right: 30px
+	}
+	.footer-gallery ul {
+		margin-top: -3px;
+		margin-left: -3px
+	}
+	.footer-gallery ul li {
+		width: 79px;
+		margin-top: 3px;
+		margin-left: 3px
+	}
+	.footer-contact {
+		width: 325px
+	}
+	.box-container {padding-top:10px;}
+	.box-container iframe {height:200px !important; width:350px !important;}
+	.service-textarea {
+		padding-top: 20px;
+	}
+	.service-textarea h1 {
+		font-size:32px;
+	}
+	body.homepage .service-textarea ul.our-services li{
+		width:100%;
+		margin-right:0px;
+		padding-bottom:20px;
+	}
+	body.homepage .service-textarea ul.our-services li.last {
+		padding-bottom:0px;
+	}
+	
+}
+
+@media only screen and (max-width:719px) {
+	.blog-container,
+	.page-sidebar {
+		display: block
+	}
+	.wrapper {
+		width: 520px
+	}
+	#realwedding .wrapper.boxstyle {
+		width: 100%;
+	}
+	#realwedding .pagenav{
+		margin-left: 10px;
+	}
+	.page-header p {
+		width: 100%
+	}
+	.team-quote {
+		width: 65%
+	}
+	.service-textarea {
+		padding-top: 20px;
+	}
+	.service-textarea h1 {
+		font-size:32px;
+	}
+	body.homepage .service-textarea ul.our-services li{
+		width:100%;
+		margin-right:0px;
+		padding-bottom:20px;
+	}
+	body.homepage .service-textarea ul.our-services li.last {
+		padding-bottom:0px;
+		margin-bottom:20px;
+	}
+	.our-team ul {
+		margin-left: 82px
+	}
+	.our-team ul li {
+		width: 286px;
+		float: none;
+		margin-top: 25px;
+		margin-left: 0
+	}
+	.our-team ul li:first-child {
+		margin-top: 0
+	}
+	.team-more {
+		margin-top: 18px
+	}
+	.team-mask:hover>.team-details {
+		margin-top: 45%
+	}
+	.header-image p {
+		width: 100%
+	}
+	.related-work ul {
+		margin-left: -9px
+	}
+	.related-work ul li {
+		width: 144px;
+		margin-top: 9px;
+		margin-left: 9px
+	}
+	.client-logo ul li {
+		width: 33.3%
+	}
+	.client-logo ul li:nth-child(-n+2) {
+		box-shadow: 21px 0 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(3) {
+		box-shadow: none
+	}
+	.client-logo ul li:nth-child(4),
+	.client-logo ul li:nth-child(8) {
+		box-shadow: 0 -21px 0 -20px #bbb, 21px 0 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(12),
+	.client-logo ul li:nth-child(15),
+	.client-logo ul li:nth-child(6),
+	.client-logo ul li:nth-child(9) {
+		box-shadow: 0 -21px 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.blog-details,
+	.blog-lists {
+		display: block;
+		width: 100%;
+		overflow: hidden
+	}
+	.blog-lists .blog-post {
+    padding-bottom: 25px;
+    margin-top: 10px;
+    width: 100%;
+    padding-right:0px;
+    float: left;
+}
+	.related-post ul {
+		margin-left: -14px
+	}
+	.related-post ul li {
+		width: 102px;
+		margin-left: 14px
+	}
+	.page-sidebar {
+		width: 100%;
+		padding-left: 0;
+		margin-top: 45px
+	}
+	.sidebar-gallery ul {
+		margin-top: 26px;
+		margin-left: -5px
+	}
+	.sidebar-gallery ul li {
+		width: 86px;
+		margin-top: 5px;
+		margin-left: 5px
+	}
+	.footer-gallery {
+		width: 100%;
+		margin-top: 35px;
+		margin-right: 0
+	}
+	.footer-gallery ul {
+		margin-top: -5px;
+		margin-left: -5px
+	}
+	.footer-gallery ul li {
+		width: 70px;
+		margin-top: 5px;
+		margin-left: 5px
+	}
+	.footer-contact {
+		width: 100%;
+		margin-top: 40px
+	}
+	.footer-bottom {
+		height: auto;
+		text-align: center;
+		padding: 10px 0;
+		overflow: hidden
+	}
+	.copyright,
+	.footer-bottom nav {
+		float: none
+	}
+	.footer-bottom ul li {
+		float: none;
+		margin-left: 0;
+		margin-right: 13px
+	}
+}
+
+@media only screen and (max-width:539px) {
+	.wrapper {
+		width: 460px
+	}
+	.quote-pagesidebar {
+		width: 65%
+	}
+	.servicebox {
+		width: 460px;
+		left: 50%;
+		margin-left: -230px;
+		margin-top: -70px
+	}
+	.servicebox ul {
+		margin-left: 0
+	}
+	.servicebox ul li {
+		width: 200px;
+		margin-top: 60px
+	}
+	.team-title {
+		font-size: 24px;
+		padding: 0 20px
+	}
+	.our-team ul {
+		margin-left: 52px
+	}
+	.related-work ul {
+		margin-left: -20px
+	}
+	.related-work ul li {
+		width: 185px;
+		margin-top: 20px;
+		margin-left: 20px
+	}
+	.client-logo ul li {
+		width: 50%
+	}
+	.client-logo ul li:first-child {
+		box-shadow: 21px 0 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(2) {
+		box-shadow: none
+	}
+	.client-logo ul li:nth-child(15),
+	.client-logo ul li:nth-child(3),
+	.client-logo ul li:nth-child(9) {
+		box-shadow: 0 -21px 0 -20px #bbb, 21px 0 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(10),
+	.client-logo ul li:nth-child(12),
+	.client-logo ul li:nth-child(4),
+	.client-logo ul li:nth-child(6),
+	.client-logo ul li:nth-child(8) {
+		box-shadow: 0 -21px 0 -20px #bbb, 0 0 0 0 #bbb
+	}
+	.client-logo ul li:nth-child(14) {
+		box-shadow: 0 -21px 0 -20px #bbb, 0 21px 0 -20px #bbb, 0 0 0 -20px #bbb
+	}
+	.related-post ul li {
+		width: 188px;
+		margin-top: 16px
+	}
+	.related-post ul li:nth-child(-n+2) {
+		margin-top: 0
+	}
+	.sidebar-gallery ul {
+		margin-top: 25px;
+		margin-left: -6px
+	}
+	.sidebar-gallery ul li {
+		width: 126px;
+		margin-top: 6px;
+		margin-left: 6px
+	}
+	.footer-gallery ul li {
+		width: 88px
+	}
+}
+
+@media only screen and (max-width:479px) {
+	.author-detail,
+	.comment-details {
+		border-top: #36bfc4 solid 5px;
+		border-left: none
+	}
+	.wrapper.header {
+		min-width: 320px
+	}
+	.wrapper {
+		width: 360px
+	}
+	.wrapper.boxstyle {
+		margin-top: 50px;
+		margin-bottom: 45px
+	}
+	#realwedding .wrapper.boxstyle {
+		width: 100%;
+	}
+	#realwedding .pagenav{
+		margin-left: 10px;
+	}
+	.page-header h1 {
+		line-height: 45px
+	}
+	.quote-pagefullwidth,
+	.quote-pagesidebar,
+	.team-quote {
+		width: 100%
+	}
+	.highlight-details h1 {
+		font-size: 40px
+	}
+	.servicebox {
+		width: 238px;
+		left: 50%;
+		margin-top: -40px;
+		margin-left: -119px
+	}
+	.our-team ul,
+	.related-post ul,
+	.related-work ul,
+	.servicebox ul li {
+		margin-left: 0
+	}
+	.servicebox ul li {
+		width: 237px;
+		float: none;
+		margin-top: 145px
+	}
+	.servicebox ul li:first-child {
+		margin-top: 0
+	}
+	.servicebox ul li:nth-child(2) {
+		margin-top: 145px
+	}
+	.service-textarea {
+		padding-top: 20px
+	}
+	.service-textarea h1 {
+		font-size: 32px
+	}
+	.team-title-area {
+		width: 100%
+	}
+	.team-title {
+		padding: 0 15px
+	}
+	.our-team ul li {
+		width: 240px
+	}
+	.team-mask:hover>.team-details {
+		margin-top: 40%
+	}
+	.related-work ul {
+		margin-top: 35px
+	}
+	.related-work ul li {
+		width: 100%;
+		float: none;
+		margin-left: 0
+	}
+	.related-work ul li .thumbnail-title {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 20px;
+		padding: 50px 20px 0;
+		margin-top: 30%
+	}
+	.related-work ul li:hover .thumbnail-title {
+		margin-top: 24%
+	}
+	.client-logo ul li {
+		padding: 10px
+	}
+	.post-date {
+		display: none
+	}
+	.author,
+	.author-detail,
+	.author-image,
+	.avatar,
+	.blog-comment ul li {
+		display: block
+	}
+	.post-title {
+		padding-left: 0
+	}
+	.post-title ul {
+		margin-top: 15px
+	}
+	.post-title ul li {
+		line-height: 18px
+	}
+	.author {
+		padding-bottom: 35px
+	}
+	.author-image {
+		width: 149px;
+		padding-right: 0;
+		margin: auto
+	}
+	.author-image img {
+		width: 100%;
+		height: auto
+	}
+	.author-detail {
+		padding-top: 20px;
+		margin-top: 25px
+	}
+	.author-detail span {
+		margin-left: 0
+	}
+	.author-detail p {
+		margin: 10px 0 0
+	}
+	.related-post ul li {
+		width: 100%;
+		float: none;
+		margin-top: 30px;
+		margin-left: 0
+	}
+	.related-post ul li:first-child {
+		margin-top: 0
+	}
+	.related-post ul li:nth-child(2) {
+		margin-top: 30px
+	}
+	.avatar {
+		width: 149px;
+		margin: auto
+	}
+	.comment-details {
+		width: 100%;
+		display: block;
+		margin-top: 20px;
+		padding: 10px 0 0
+	}
+	.comment-details.comment-reply {
+		border-left: none;
+		border-top: #fff solid 5px
+	}
+	.comment-active .submit-button {
+		float: right;
+	}
+	.map-container {
+		height: 240px
+	}
+	.contact-textarea figure {
+		float: none;
+		margin: 0 0 20px
+	}
+	.contact-textarea img {
+		width: 100%;
+		height: auto
+	}
+	#contactus .contact-area {
+		margin-top:0px;
+	}
+	.sidebar-gallery ul li {
+		width: 76px
+	}
+	.footer-gallery ul {
+		margin-top: -6px;
+		margin-left: -6px
+	}
+	.footer-gallery ul li {
+		width: 100%;
+		margin-top: 6px;
+		margin-left: 6px
+	}
+}
+@media only screen and (max-width:360px) {
+	.wrapper {
+		width: 310px
+	}
+	.box-container iframe {
+		height: 180px !important;
+		width: 310px !important;
+	}
+}
